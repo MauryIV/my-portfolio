@@ -1,19 +1,19 @@
 # Portfolio
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This is my portfolio. Everything in yellow is clickable and will take you to the corresponding area, as what is stated by the text. You will be able to see a bit about why I have started this line of work as well as some of my main work for displaying my capabilities.
 
 ## Badges
 NA
 
 ## Visuals
-![52FBF4DA-F7C8-49E1-861B-B573EA26D919](https://github.com/MauryIV/module-02-challenge/assets/146037880/04020a4a-8df2-4dc2-b5a2-ecf1e1e34e8a)
+![Alt text](C238D789-07DB-45D4-8A25-BF828C51D98E.jpeg)
 
 ## Installation
 NA
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README. https://mauryiv.github.io/module-02-challenge/
+This is a great resource for determining if I am someone you may want to hire, it provides examples of my capabilities as full-stack developer. https://mauryiv.github.io/module-02-challenge/
 
 ## Support
 NA
@@ -25,7 +25,7 @@ Will continue to update this repository, prioritizing more advanced projects as 
 NA
 
 ## Authors and acknowledgment
-DU coding bootcamp for having a format to aim for as a good base.
+DU coding bootcamp for having a format to aim for as a good base. But did write this myself from scratch.
 
 ## License
 Refer to LICENSE

@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
 }
 
 #top {
@@ -41,12 +41,12 @@ li{
 }
 
 h2 {
-  font-size: 1.3rem;
-  margin: .8rem 0;
+  font-size: 1.3em;
+  margin: .8em 0;
 }
 
 #about-me img {
-  padding: .8rem .8rem 0 0;
+  padding: .8em .8em 0 0;
   height: auto;
   float: left;
   max-width: 25%;
@@ -66,16 +66,16 @@ p {
 .root {
   float: left;
   width: 18%;
-  margin: 0 auto;
+  margin: 0 2%;
   border-right: 4px solid var(--decorative-color);
   color: var(--decorative-color);
 }
 
 .info {
   float: right;
-  width: 78%;
-  padding: 0 4px 8px 0;
-  margin: 4px auto;
+  width: 74%;
+  padding: 1% 1%;
+  margin: 1% 2%;
 }
 
 .info .links {
@@ -108,14 +108,14 @@ p {
   display:flex;
   flex-wrap: wrap;
   position: absolute;
-  font-size: 1.1rem;
-  padding-left: .8rem;
-  margin: .8rem 0;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin: 1% 0;
 }
 
 #best {
   height: 50%;
-  width: 100%;
+  width: 95%;
 }
 
 #best img {
@@ -126,7 +126,7 @@ p {
 .runner-up {
   display: inline-block;
   height: 50%;
-  width: 47%;
+  width: 46%;
 }
   
 .runner-up img {
@@ -145,17 +145,15 @@ p {
   justify-content: space-around;
 }
 
-.container img {
-  display: flex;
-  justify-content: center;
-}
-
 @media screen and (min-width: 925px) {
-  #about-me img {
-    padding: .8rem .8rem 0 0;
-    /* height: ; */
-    float: left;
-    max-width: 25%;
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  * {
+    font-size: 1.1em;
   }
 }
 
@@ -169,13 +167,10 @@ p {
   * {
     font-size: 14px;
   }
-  /* .runner-up {
-    display: inline-block;
-    height: 40%;
-    width: 47.3%;
+}
+
+@media screen and (min-width: 1164px) {
+  .runner-up {
+    width: 46.2%;
   }
-  #best {
-    height: 40%;
-    width: 97.3%;
-  } */
 }
