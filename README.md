@@ -7,7 +7,7 @@ Let people know what your project can do specifically. Provide context and add a
 NA
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+![52FBF4DA-F7C8-49E1-861B-B573EA26D919](https://github.com/MauryIV/module-02-challenge/assets/146037880/04020a4a-8df2-4dc2-b5a2-ecf1e1e34e8a)
 
 ## Installation
 NA
