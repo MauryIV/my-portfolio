@@ -13,6 +13,7 @@ h1 {
 }
 
 #top {
+
   border-bottom: 10px solid var(--decorative-color);
   display: flex;
   padding: 20px;
@@ -66,7 +67,7 @@ p {
 .root {
   float: left;
   width: 18%;
-  margin: 0 2%;
+  margin: 0 8px;
   border-right: 4px solid var(--decorative-color);
   color: var(--decorative-color);
 }
@@ -74,8 +75,8 @@ p {
 .info {
   float: right;
   width: 74%;
-  padding: 1% 1%;
-  margin: 1% 2%;
+  padding: 4px 4px;
+  margin: 0 8px;
 }
 
 .info .links {
@@ -96,7 +97,7 @@ p {
   }
 }
 
-#work {
+#work .info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -113,20 +114,32 @@ p {
   margin: 1% 0;
 }
 
+#work .info {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  gap: 8px;
+  grid-auto-rows: minmax(300px,auto);
+  grid-auto-columns: 50%;
+}
+
 #best {
-  height: 50%;
-  width: 95%;
+  grid-column: span 2;
+  grid-row: 1;
+}
+
+#second {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#third {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 #best img {
   width: 100%;
   height: 100%;
-}
-
-.runner-up {
-  display: inline-block;
-  height: 50%;
-  width: 46%;
 }
   
 .runner-up img {
@@ -166,11 +179,5 @@ p {
   }
   * {
     font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 1164px) {
-  .runner-up {
-    width: 46.2%;
   }
 }

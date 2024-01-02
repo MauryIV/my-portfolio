@@ -7,7 +7,7 @@ This is my portfolio. Everything in yellow is clickable and will take you to the
 NA
 
 ## Visuals
-![Alt text](C238D789-07DB-45D4-8A25-BF828C51D98E.jpeg)
+![Alt text](06C668E3-235F-4C12-9CC0-33C36B780118.jpeg)
 
 ## Installation
 NA
@@ -25,7 +25,7 @@ Will continue to update this repository, prioritizing more advanced projects as 
 NA
 
 ## Authors and acknowledgment
-DU coding bootcamp for having a format to aim for as a good base. But did write this myself from scratch.
+DU coding bootcamp for teaching me how to do these things and having a base goal. As well as some of my fellow students for helping with advice on how to approach certain elements.
 
 ## License
 Refer to LICENSE
