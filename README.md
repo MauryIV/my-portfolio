@@ -7,7 +7,7 @@ This is my portfolio. Everything in yellow is clickable and will take you to the
 NA
 
 ## Visuals
-![Alt text](06C668E3-235F-4C12-9CC0-33C36B780118.jpeg)
+![Alt text](assets/images/06C668E3-235F-4C12-9CC0-33C36B780118.jpeg)
 
 ## Installation
 NA
