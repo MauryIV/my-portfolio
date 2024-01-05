@@ -7,13 +7,13 @@ This is my portfolio. Everything in yellow is clickable and will take you to the
 NA
 
 ## Visuals
-![Alt text](assets/images/06C668E3-235F-4C12-9CC0-33C36B780118.jpeg)
+![Alt text](assets/images/17B7DBE2-5126-49B8-8B5E-8A7EFAF4EF2F.jpeg)
 
 ## Installation
 NA
 
 ## Usage
-This is a great resource for determining if I am someone you may want to hire, it provides examples of my capabilities as full-stack developer. https://mauryiv.github.io/module-02-challenge/
+This is a great resource for determining if I am someone you may want to hire, it provides examples of my capabilities as full-stack developer. https://mauryiv.github.io/my-portfolio/
 
 ## Support
 NA
