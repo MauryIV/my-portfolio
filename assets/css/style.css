@@ -1,3 +1,4 @@
+/* this set variable colors to use throughout */
 :root {
   --decorative-color: rgb(95,27,116);
   --light-color: rgb(255, 241, 40);
@@ -12,8 +13,8 @@ h1 {
   font-size: 2.5em;
 }
 
+/* this has a background image here so that it can be adaptive based on the screen size */
 #top {
-
   border-bottom: 10px solid var(--decorative-color);
   display: flex;
   padding: 20px;
@@ -32,6 +33,7 @@ a {
   color: var(--light-color);
 }
 
+/* this adds a hover effect for the links */
 a:hover {
   color: var(--decorative-color);
 }
@@ -46,6 +48,7 @@ h2 {
   margin: .8em 0;
 }
 
+/* this is so the image will only take 25 percent of space available and adapt to mutiple screen sizes */
 #about-me img {
   padding: .8em .8em 0 0;
   height: auto;
@@ -58,12 +61,14 @@ p {
   font-size: smaller;
 }
 
+/* this is so the content will wrap and adapt for a prettier site */
 .content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
+/* this is to have the sections labeled on the left, also chages sizes by having width be percentage based */
 .root {
   float: left;
   width: 18%;
@@ -72,6 +77,7 @@ p {
   color: var(--decorative-color);
 }
 
+/* this has all the info that isn't the left label sit to the right appropriately */
 .info {
   float: right;
   width: 74%;
@@ -97,6 +103,7 @@ p {
   }
 }
 
+/* this is to keep the titles where i would like them to be on the image */
 #work header {
   display:flex;
   flex-wrap: wrap;
@@ -106,6 +113,7 @@ p {
   margin: 1% 0;
 }
 
+/* this is to get the layout preffered, had to use grid to get the first image to take up 2 columns worth */
 #work .info {
   display: grid;
   grid-template-columns: (2, 1fr);
@@ -114,6 +122,7 @@ p {
   grid-auto-columns: 50%;
 }
 
+/* the following is for the images to take the right about of space in the grid */
 #best {
   grid-column: span 2;
   grid-row: 1;
@@ -150,6 +159,7 @@ p {
   justify-content: space-around;
 }
 
+/* all the following media screen additions are so my portfolio will still look good no matter the size of the screen viewing it, mainly by changing the text size but some width size as well */
 @media screen and (min-width: 925px) {
   h1 {
     font-size: 1.5em;
